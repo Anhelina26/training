@@ -1,0 +1,23 @@
+/**************Base***************/
+@import "./base/base";
+@import "./base/reset";
+
+/**************Components****************/
+@import "./component/buttons";
+@import "./component/container";
+@import "./component/menu-mobile";
+@import "./component/modal";
+@import "./component/section";
+
+
+/**************loyout***************/
+@import "./loyout/about-us";
+@import "./loyout/for-you";
+@import "./loyout/header";
+@import "./loyout/hero";
+@import "./loyout/offers";
+@import "./loyout/room";
+
+
+/**************utils****************/
+@import "./utils/variables";

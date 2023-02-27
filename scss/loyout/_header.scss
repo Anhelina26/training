@@ -1,0 +1,34 @@
+.header {
+  background: #000101;;
+  width: 100%;
+  height: 86px;
+  border-radius: 0 0 0 1px solid gray;
+}
+
+.site-now {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    gap: 170px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.site-now__link {
+  font-family: "Kameron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+.logo {
+  font-family: "Kaisei HarunoUmi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 93px;
+  margin-bottom: 8px;
+
+  color: #fffafa;
+}
