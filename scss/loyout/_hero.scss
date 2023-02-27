@@ -1,5 +1,5 @@
 .hero{
-    background-image: url(../images/hero/Rectangle\ 4_small@1x.jpg);
+    background-image: url(../../images/hero/Rectangle\ 4_small@1x.jpg);
     height: 635px;
     background-repeat: no-repeat;
     width: 100%;
@@ -12,32 +12,32 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("/../images/hero/Rectangle\ 4_small@2x.jpg");
+      url("../../images/hero/Rectangle\ 4_small@2x.jpg");
   }
 
   // tablet screen
   @media screen and (min-width: 481px) {
     background-image: 
-      url("../images/hero/Rectangle\ 3_medium@1x.jpg");
+      url("../../images/hero/Rectangle\ 3_medium@1x.jpg");
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       background-image: 
-        url("../images/hero/Rectangle\ 3_medium@2x.jpg");
+        url("../../images/hero/Rectangle\ 3_medium@2x.jpg");
     }
   }
 
   // desktop screen
   @media screen and (min-width: 769px) {
     background-image: 
-      url("../images/hero/Rectangle\ 1_large@1x.jpg");
+      url("../../images/hero/Rectangle\ 1_large@1x.jpg");
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       background-image: 
-        url("../images/hero/Rectangle\ 1_large@2x.jpg");
+        url("../../images/hero/Rectangle\ 1_large@2x.jpg");
     }
   }
 }
