@@ -90,37 +90,11 @@ a {
 }
 
 .hero {
-  background-image: url(../images/hero/Rectangle_small@1x.jpg);
+  background-image: url(../../images/hero/Rectangle_large@2x.jpg);
   height: 635px;
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
-}
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero/Rectangle_small@2x.jpg");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/Rectangle_small@2x.jpg");
-  }
-}
-@media screen and (min-width: 481px) {
-  .hero {
-    background-image: url("../images/hero/Rectangle_medium@1x.jpg");
-  }
-}
-@media screen and (min-width: 481px) and (min-device-pixel-ratio: 2), screen and (min-width: 481px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 481px) and (min-resolution: 192dpi), screen and (min-width: 481px) and (min-resolution: 2dppx) {
-  .hero {
-    background-image: url("../images/hero/Rectangle_medium@2x.jpg");
-  }
-}
-@media screen and (min-width: 769px) {
-  .hero {
-    background-image: url("../images/hero/Rectangle_large@1x.jpg");
-  }
-}
-@media screen and (min-width: 769px) and (min-device-pixel-ratio: 2), screen and (min-width: 769px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 769px) and (min-resolution: 192dpi), screen and (min-width: 769px) and (min-resolution: 2dppx) {
-  .hero {
-    background-image: url("../images/hero/Rectangle_large@2x.jpg");
-  }
 }
 
 /**************utils****************//*# sourceMappingURL=main.css.map */
