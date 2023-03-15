@@ -128,7 +128,7 @@ a {
 .form__text {
   width: 296px;
   height: 194px;
-  background: var(--button-bg-color);
+  background: #090909;
   border: 2px solid #823a00;
   border-radius: 35px;
   resize: none;
