@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LvivHg</title>
+    <title>Logo</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -14,27 +14,272 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&family=Kameron&family=Roboto:ital,wght@1,300;1,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&family=Kameron&family=Montserrat:wght@500&display=swap"
       rel="stylesheet"
     />
 
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header class="header container">
-      <nav>
-        <ul class="site-now">
-          <li class="site-now__link"><a href="">About us</a></li>
-          <li class="site-now__link"><a href="">Room</a></li>
-          <li class="logo"><a href="">LvivHg</a></li>
-          <li class="site-now__link"><a href="">Offers</a></li>
-          <li class="site-now__link"><a href="">For you</a></li>
-        </ul>
-      </nav>
+    <header class="header">
+      <div class="container">
+        <nav>
+          <ul class="site-now">
+            <li class="site-now__link"><a href="">About us</a></li>
+            <li class="site-now__link"><a href="">Room</a></li>
+            <li class="logo"><a href="">Logo</a></li>
+            <li class="site-now__link"><a href="">Offers</a></li>
+            <li class="site-now__link"><a href="">For you</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <section class="hero"></section>
+
+    <section class="about-us section">
+      <div class="container">
+        <div class="about-us__box">
+          <div class="abous-us__text-box">
+            <h2 class="about-us__title">About us</h2>
+            <p class="about-us__text about-us__text-1">
+              Pellentesque turpis ex, ultricies id posuere in, iaculis ut nulla. Nam
+              ornare, lectus non interdum cursus, arcu dolor sagittis turpis, scelerisque
+              pulvinar libero orci ut mi. Nullam congue bibendum sem.
+            </p>
+            <p class="about-us__text about-us__text-2">
+              Mauris maximus lacus id venenatis imperdiet. Interdum et malesuada fames ac
+              ante ipsum primis in faucibus. Vivamus dictum faucibus diam. Donec lacinia
+              enim a blandit finibus.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
+
+    <section class="section">
+      <div class="container">
+        <ul class="clients__wrapper">
+          <li class="clients__link">
+            <a href="">
+              <svg class="footer__icon" width="100" height="100">
+                <use href="./images/icons.svg#icon-Logo-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="clients__link">
+            <a href="">
+              <svg class="footer__icon" width="100" height="100">
+                <use href="./images/icons.svg#icon-Logo-2"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="clients__link">
+            <a href="">
+              <svg class="footer__icon" width="100" height="100">
+                <use href="./images/icons.svg#icon-Logo-3"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="clients__link">
+            <a href="">
+              <svg class="footer__icon" width="100" height="100">
+                <use href="./images/icons.svg#icon-Logo-4"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!---------------------Galery----------------------->
+    <section class="galery section">
+      <div class="container">
+        <ul class="galery__box">
+          <li class="galery__item">
+            <img
+              srcset="
+                  ./images/gallery/Rectangle 20_small-1@1x.jpg 450w,
+                  ./images/gallery/Rectangle 20_small-1@2x.jpg 900w,
+                  ./images/gallery/Rectangle 10_large-1@1x.jpg 270w,
+                  ./images/gallery/Rectangle 10_large-1@2x.jpg 540w
+
+                "
+              sizes="(min-width: 1200px) 320px, (min-width: 768px) 320px, (min-width: 320px) 320px, 100vw"
+              src="./images/gallery/Rectangle 20_small-1@1x.jpg"
+              alt="city"
+              loading="lazy"
+              class="galery__picture"
+            />
+            <p class="galery__text">
+              Ut laoreet nunc vel magna efficitur, vel iaculis mi scelerisque. In eu
+              efficitur metus. Nam fringilla est sapien, vitae bibendum augue posuere
+              imperdiet.
+            </p>
+          </li>
+          <li class="galery__item">
+            <img
+              srcset="
+                  ./images/gallery/Rectangle 20_small-2@1x.jpg 450w,
+                  ./images/gallery/Rectangle 20_small-2@2x.jpg 900w,
+                  ./images/gallery/Rectangle 12_large-12@1x.jpg 270w,
+                  ./images/gallery/Rectangle 10_large-2@2x.jpg 540w
+
+                "
+              sizes="(min-width: 1200px) 320px, (min-width: 768px) 320px, (min-width: 320px) 320px, 100vw"
+              src="./images/gallery/Rectangle 20_small-2@1x.jpg"
+              alt="city"
+              loading="lazy"
+              class="galery__picture"
+            />
+            <p class="galery__text">
+              Ut laoreet nunc vel magna efficitur, vel iaculis mi scelerisque. In eu
+              efficitur metus. Nam fringilla est sapien, vitae bibendum augue posuere
+              imperdiet.
+            </p>
+          </li>
+          <li class="galery__item">
+            <img
+              srcset="
+                  ./images/gallery/Rectangle 20_small-3@1x.jpg 450w,
+                  ./images/gallery/Rectangle 20_small-3@1x.jpg 900w,
+                  ./images/gallery/Rectangle 11_large-3@1x.jpg 270w,
+                  ./images/gallery/Rectangle 11_large-3@2x.jpg 540w
+
+                "
+              sizes="(min-width: 1200px) 320px, (min-width: 768px) 320px, (min-width: 320px) 320px, 100vw"
+              src="./images/gallery/Rectangle 20_small-3@1x.jpg"
+              alt="city"
+              loading="lazy"
+              class="galery__picture"
+            />
+            <p class="galery__text">
+              Ut laoreet nunc vel magna efficitur, vel iaculis mi scelerisque. In eu
+              efficitur metus. Nam fringilla est sapien, vitae bibendum augue posuere
+              imperdiet.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!------------------------for you---------------------------->
+
+    <section class="section for-you">
+      <div class="container">
+        <div class="for-you__wrapper">
+          <form name="for-you__form" autocomplete="on">
+            <label for="user-name"></label>
+            <input
+              class="form__name"
+              type="text"
+              id="user-name"
+              name="username"
+              placeholder="Name"
+            />
+
+            <label for="user-email"></label>
+            <input
+              class="form__email"
+              type="email"
+              id="user-email"
+              name="user-email"
+              placeholder="Email"
+            />
+
+            <label for="user-text"></label>
+            <textarea
+              class="form__text"
+              name="user-text"
+              id="user-text"
+              cols="30"
+              rows="10"
+              id="user_message"
+              cols="4"
+              placeholder="Write something"
+            >
+            </textarea>
+          </form>
+          <div>
+            <ul>
+              <li class="for-you__address">
+                <a href="" class="for-you__link"
+                  >10340 Ridgeland Ave, Chicago Ridge, IL 60415, USA
+                </a>
+              </li>
+              <li class="for-you__address">
+                <a href="" class="for-you__link"
+                  >10340 Ridgeland Ave, Chicago Ridge, IL 60415, USA
+                </a>
+              </li>
+              <li class="for-you__address">
+                <a href="" class="for-you__link"
+                  >10340 Ridgeland Ave, Chicago Ridge, IL 60415, USA
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------------------Footer---------------------------------->
+    <footer class="footer section">
+      <div class="container">
+        <h2 class="footer__title">
+          Follow us!
+        </h2>
+        <div class="footer__wrapper">
+          <ul class="footer-socials">
+            <li class="footer-socials__links">
+              <a href="" class="">
+                <svg class="footer__icon" width="25" height="25">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials__links">
+              <a href="">
+                <svg class="footer__icon" width="25" height="25">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials__links">
+              <a href="">
+                <svg class="footer__icon" width="25" height="25">
+                  <use href="./images/icons.svg#icon-telegram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials__links">
+              <a href="">
+                <svg class="footer__icon" width="25" height="25">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+
+          <!-- <div class="footer-form__wrapper">
+            <form name="footer-form">
+              <label for="footer-form__text"></label>
+              <input
+                class="footer-form__text"
+                type="text"
+                id="footer-form__text"
+                placeholder="Введіть текст..."
+              />
+            </form>
+            <div>
+              <button type="button" class="footer-form__button">Відправити</button>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </footer>
   </body>
 </html>

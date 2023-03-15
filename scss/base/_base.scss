@@ -1,4 +1,6 @@
 body{
-    color: white;
-    font-family: Roboto;
+    color: var(--main-font-color);
+    background-color: var(--main-bg-color-site);
+    font-family: var(--main-font);
+    overflow-x:hidden;
 }
