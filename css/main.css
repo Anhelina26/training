@@ -19,6 +19,8 @@ ul {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 a {
@@ -89,18 +91,12 @@ a {
   margin-bottom: 20px;
 }
 
-.about-us__box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+.about-us__picture {
+  display: none;
 }
 @media screen and (min-width: 768px) {
-  .about-us__box {
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    gap: 245px;
+  .about-us__picture {
+    display: block;
   }
 }
 
@@ -355,6 +351,7 @@ a {
 
 .galery__picture {
   text-align: center;
+  display: inline-block;
 }
 
 .galery__text {
